@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "715521677764",
+    "firebase_url": "https://thedoctorsapplication.firebaseio.com",
+    "project_id": "thedoctorsapplication",
+    "storage_bucket": "thedoctorsapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715521677764:android:01e2cd3177d3305c",
+        "android_client_info": {
+          "package_name": "com.example.helvi.thedoctorsapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715521677764-3hpsvu8iiuq7n3a5lk19ln09jmh0v9s6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRKAnFfGrD4Mp1cOMi4rt90mP4qxIlIxs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

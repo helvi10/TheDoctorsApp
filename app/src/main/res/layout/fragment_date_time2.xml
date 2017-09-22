@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <EditText
+        android:id="@+id/in_time"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/btn_time"
+        android:background="@color/com_facebook_button_border_color_focused"
+        android:hint="Select Start Time" />
+
+    <Button
+        android:id="@+id/btn_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/btn_date"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="16dp"
+        android:text="TIME" />
+
+    <Button
+        android:id="@+id/btn_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATE"
+        android:layout_alignBottom="@+id/in_date"
+        android:layout_alignEnd="@+id/btn_time" />
+
+    <EditText
+        android:id="@+id/in_date"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextPhone"
+        android:layout_marginEnd="42dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="21dp"
+        android:background="@color/com_facebook_button_border_color_focused"
+        android:hint="Select Date" />
+
+    <Button
+        android:id="@+id/buttonBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Book"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/editTextEndTime"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/in_time"
+        android:layout_below="@+id/btn_time"
+        android:layout_marginTop="14dp"
+        android:background="@color/com_facebook_button_border_color_focused"
+        android:hint="Select End Time"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonEndTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_time"
+        android:layout_alignLeft="@+id/btn_time"
+        android:layout_alignRight="@+id/btn_time"
+        android:layout_alignStart="@+id/btn_time"
+        android:layout_alignTop="@+id/editTextEndTime"
+        android:text="Time" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:background="@color/com_facebook_button_border_color_focused"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextName"
+        android:layout_marginTop="13dp"
+        android:background="@color/com_facebook_button_border_color_focused"
+        android:hint="Phone Number"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Booking is FREE. All fees are payable at clinic."
+        android:textSize="16sp"
+        android:layout_below="@+id/buttonEndTime"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.helvi.thedoctorsapplication.activities.fragment.ClockFragment">
+
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:headerBackground="@color/cardview_shadow_start_color" />
+
+    <TextView
+        android:id="@+id/textViewAlarmOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/timePicker"
+        android:layout_marginTop="11dp"
+        android:text="Reminder On"
+        android:textColor="#4c3186"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewAlarmOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewAlarmTime"
+        android:layout_alignBottom="@+id/textViewAlarmTime"
+        android:layout_alignParentEnd="true"
+        android:text="Reminder Off"
+        android:textColor="#4c3186"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextMedicine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewAlarmOn"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Medicine Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextDoze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextMedicine"
+        android:ems="10"
+        android:hint="Doze"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewAlarmTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextMedicine"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp" />
+
+</RelativeLayout>
